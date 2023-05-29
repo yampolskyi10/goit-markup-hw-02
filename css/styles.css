@@ -1,0 +1,75 @@
+:root{
+    --title-color: #111111;
+    --main-text-color: #ffffff;
+    --second-text-color: #111111;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none ;
+}
+
+.header-menu-link{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #2E2F42;
+}
+.header-menu-link:hover{
+    color: firebrick;
+}
+.header-menu-link:focus{
+    color: firebrick;
+}
+
+.hero {
+}
+.hero-title { 
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.hero-btn {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.50;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+
+.advantages {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-subtitle {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+color: var(--second-text-color);
+}
+.advantages-item-text {
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #434455;
+}
