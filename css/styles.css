@@ -55,9 +55,13 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 
 }
 .link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .adress-link:hover,:focus{
@@ -77,6 +81,7 @@ body{
 
 }
 .hero-button {
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     font-family: "Roboto";
     font-weight: 500;
@@ -115,7 +120,7 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f4;
+    color: #2e2f42;
 }
 .list {
  
@@ -234,6 +239,7 @@ body{
 
 }
 .portfolio-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -241,9 +247,10 @@ body{
     color: #4d5ae5;
     background-color: #F4F4FD;
     cursor: pointer;
+
 }
 
-.portfolio-button:hover,focus{
+.portfolio-button:hover,:focus{
  color: #FFFFFF ;
  background-color:  #404BBF;   
 }
