@@ -26,7 +26,10 @@ body{
 .link {
     text-decoration: none;
 }
-
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
 
 .page-logo-span {
     color:  #2e2f42;
@@ -171,6 +174,10 @@ hero-button:hover,
 }
 .link {
     text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
 .footer-logo-span {
     color: #f4f4fd;
