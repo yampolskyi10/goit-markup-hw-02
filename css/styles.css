@@ -31,7 +31,7 @@ body{
 .page-logo-span {
     color:  #2e2f42;
 }
-.list {
+.list {font-family: "Roboto", sans-serif;
    
 }
 
@@ -48,7 +48,7 @@ body{
 .address {
     font-style: normal;
 }
-.list {
+.list {font-family: "Roboto", sans-serif;
 }
 .address-link {
     font-size: 16px;
@@ -93,6 +93,7 @@ body{
 .section2 {
 }
 .list {
+    font-family: "Roboto", sans-serif;
 }
 .section-two-titel {
     font-weight: 500;
@@ -211,6 +212,7 @@ body{
     font-style: normal;
 }
 .list {
+    font-family: "Roboto", sans-serif;
 }
 .address-link {
     font-size: 16px;
@@ -220,6 +222,7 @@ body{
 
 }
 .link {
+    text-decoration: none;
 }
 
 .address-link:hover,:focus{
