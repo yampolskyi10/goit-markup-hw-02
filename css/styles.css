@@ -42,11 +42,9 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.page-nav-link:hover,:focus{
-    color: #404bbf;
-}
-.page-nav-link:focus{
-    color: #404bbf; 
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #404BBF;
 }
 .address {
 font-style: normal;
@@ -94,10 +92,11 @@ font-style: normal;
     color: #ffffff;
     cursor: pointer;
 }
-.hero-button:hover,:focus{
-    background-color: #404BBF;
-}
 
+hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF; 
+}
 .section2 {
 }
 .list {
